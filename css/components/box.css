@@ -1,0 +1,12 @@
+#box{
+    display: inline-block;
+    background-color: #b2bec3;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 44px;
+}
+
+/* o espaço dps do box significa pegar todos os filho */
+#box h1{
+    margin-bottom: 28px;
+}
