@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #ff7675;
+    background-color: #e17055;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 
@@ -24,28 +24,15 @@ a{
 
 a::before{
     content: "";
-    background-color: #e17055;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-span{
     background-color: #ff7675;
     width: 10px;
     height: 10px;
     margin-right: 10px;
 }
 
-#botton{
-    display: inline-block;
+span{
     background-color: #e17055;
-    box-shadow: 5px 5px 0px #000000;
-    padding: 18px 20px;
-    margin-right: 0px;
-    transition: transform 100ms linear; 
-}
-
-#botton:hover{
-    transform: scale(1.08);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
 }
